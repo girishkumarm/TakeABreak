@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/bangalore"
+        android:showAsAction="ifRoom"
+        android:title="Bangalore"/>
+    <item
+        android:id="@+id/mysore"
+        android:showAsAction="ifRoom"
+        android:title="Mysore"/>
+    <item
+        android:id="@+id/madikeri"
+        android:showAsAction="ifRoom"
+        android:title="Madikeri"/>
+    <item
+        android:id="@+id/shimoga"
+        android:showAsAction="ifRoom"
+        android:title="Shimoga"/>
+    <item
+        android:id="@+id/koppal"
+        android:showAsAction="ifRoom"
+        android:title="Koppal"/>
+    <item
+        android:id="@+id/chitradurga"
+        android:showAsAction="ifRoom"
+        android:title="Chitradurga"/>
+
+</menu>

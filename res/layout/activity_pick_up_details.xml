@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/pickUpDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pick_up_details"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/pickUpDetails"
+        android:layout_marginTop="30dp"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/pickUpCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:ems="10"
+                android:text="Select Pick Up City" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:onClick="showDatePickerDialog"
+                android:text="Pick up Date" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
